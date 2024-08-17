@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rcv_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="3dp"
+        >
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:padding="4dp"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

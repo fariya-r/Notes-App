@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string-array name="spinner_items">
+        <item>All</item>
+        <item>Important</item>
+        <item>Lecture</item>
+        <item>Shopping</item>
+        <item>This Week</item>
+        <item>To-Do-List</item>
+        <item>Later</item>
+        <item>Home</item>
+        <item>Office</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  this ACTIVITY IS FOR SHOWING SAVED NOTES "BACKGROUND IN DIFF COLORS"-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <TextView
+        android:id="@+id/note_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</androidx.cardview.widget.CardView>
